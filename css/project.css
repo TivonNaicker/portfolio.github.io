@@ -1,0 +1,17 @@
+#video-container iframe {
+    width: 100%; /* Full width by default */
+    height: 100%;
+}
+
+/* Media query for screen width under 500px */
+@media (max-width: 500px) {
+    #video-container iframe {
+        width: 90%; /* Decrease width to 90% */
+        height: auto; /* Adjust height proportionally */
+     
+        display: block; /* Block display for proper centering */
+    }
+    #videoModal{
+        margin-left: 4%;
+    }
+}

@@ -1,0 +1,42 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 679px) {
+
+
+    .footer {
+
+        text-align: center;
+    }
+    .media{
+        display:none;       
+    }
+
+        .footer a {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .footer img {
+            zoom: 2.5%; /* Adjust the zoom level for smaller screens */
+        }
+}
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
