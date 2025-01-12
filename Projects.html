@@ -93,11 +93,15 @@
                 <div class="modal-body" style="overflow-y: auto;">
                     <!-- Video Section -->
                     <div class="ratio ratio-16x9" id="video-container">
-                        <video id="videoIframe" controls autoplay  >
-                            <source id="vidsrc" src="./css/Media/scarlet.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                        
+                          <iframe 
+                            id="videoIframe" 
+                            src="./css/Media/scarlet.mp4" 
+                            title="Default Video" 
+                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen 
+                            type="vide/mp4">
+                      
+                        </iframe>
                     </div>
                     <!-- Text Section -->
                     <div class="mt-3">
@@ -261,35 +265,6 @@
                             data-bs-target="#videoModal" 
                             data-title="Bible App" 
                             data-src="https://github.com/TivonNaicker/portfolio.github.io/blob/main/css/Media/Bible_App_Execution.mp4" 
-                            data-description="Used Kotlin language and android Studio to make this app and all the content in it is stored in a database which was made in SQLite. Works on all android phones.">
-                            Show More
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </li>
-
-        <li class="p-2">
-            <div>
-                <div class="card" style="max-width: 500px;">
-                    <div class="card-header">
-                        Bible App
-                    </div>
-                    <div class="card-body">
-                        <center>
-                            <video id="videoIframe" controls autoplay src="./css/Media/scarlet.mp4" >
-                                
-                                Your browser does not support the video tag.
-                            </video> 
-                                                  </center>
-                        <p class="card-text flex-wrap">Mobile Bible App</p>
-                        <button 
-                            class="btn btn-primary show-more-btn" 
-                            type="button" 
-                            data-bs-toggle="modal" 
-                            data-bs-target="#videoModal" 
-                            data-title="Bible App" 
-                            data-src="./css/Media/Bible_App_Execution.mp4" 
                             data-description="Used Kotlin language and android Studio to make this app and all the content in it is stored in a database which was made in SQLite. Works on all android phones.">
                             Show More
                         </button>
