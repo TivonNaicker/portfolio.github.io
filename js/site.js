@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const modalTitle = document.getElementById('videoModalLabel');
     const videoIframe = document.getElementById('videoIframe');
     const videoDescription = document.getElementById('videoDescription');
-
+    const down = document.getElementById('down');
     showMoreButtons.forEach(button => {
         button.addEventListener('click', () => {
             const title = button.getAttribute('data-title');
@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             modalTitle.textContent = title;
             videoIframe.src = src;
+            down.setAttribute('href',src);
             videoDescription.textContent = description;
         });
     });
