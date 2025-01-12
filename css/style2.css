@@ -133,6 +133,9 @@ body{
     body{
         background:rgb(40,40,40); ;
     }
+    .skill-progress{
+        background-color: rgb(11, 96, 135);
+    }
 }
 
 
