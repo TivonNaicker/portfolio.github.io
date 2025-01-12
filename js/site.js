@@ -12,9 +12,10 @@ document.addEventListener('DOMContentLoaded', () => {
             const description = button.getAttribute('data-description');
 
             modalTitle.textContent = title;
+            videoDescription.textContent = description;
             videoIframe.src = src;
            
-            videoDescription.textContent = description;
+           
         });
     });
 
