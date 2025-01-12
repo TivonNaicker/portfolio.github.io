@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const showMoreButtons = document.querySelectorAll('.show-more-btn');
     const modalTitle = document.getElementById('videoModalLabel');
     const videoIframe = document.getElementById('videoIframe');
+    const vidsrc=document.getElementById('vidsrc');
     const videoDescription = document.getElementById('videoDescription');
 
     showMoreButtons.forEach(button => {
@@ -12,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const description = button.getAttribute('data-description');
 
             modalTitle.textContent = title;
-            videoIframe.src = src;
+            vidsrc.src = src;
             videoDescription.textContent = description;
         });
     });

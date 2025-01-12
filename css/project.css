@@ -1,4 +1,4 @@
-#video-container iframe {
+#video-container video {
     width: 100%; /* Full width by default */
     height: 100%;
 }
