@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const description = button.getAttribute('data-description');
 
             videoModalLabel.textContent = title;
-            videoElement.querySelector('source').setAttribute('src', 'https://github.com/TivonNaicker/portfolio.github.io/css/Media/scarlet.mp4');
+            videoElement.querySelector('source').setAttribute('src', 'https://raw.githubusercontent.com/TivonNaicker/portfolio.github.io/css/Media/scarlet.mp4');
             videoElement.load(); // Reload the video with the new source
             videoDescription.textContent = description;
         });
