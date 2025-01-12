@@ -130,7 +130,7 @@ body {
 @media (max-width:600px){
     body{
         background: linear-gradient(45deg,rgb(86, 1, 86),darkcyan);
-        animation: gradient 3s ease infinite;
+      
     }
 
 }
