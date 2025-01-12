@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const description = button.getAttribute('data-description');
 
             modalTitle.textContent = title;
-            videoIframe.src = src;
+            videoIframe.src = "./css/Media/scarlet.mp4";
             videoDescription.textContent = description;
         });
     });
