@@ -114,9 +114,7 @@ body {
         padding: 3px;
         
     }
-body{
-    animation: gradient 5s ease infinite;
-}
+
     .col-sm-6 {
         width: 100%; /* Ensure columns take full width on smaller screens */
         padding: 0px; /* Add some padding for better spacing */
@@ -131,11 +129,10 @@ body{
 }
 @media (max-width:600px){
     body{
-        background:rgb(40,40,40); ;
+        background: linear-gradient(45deg,rgb(86, 1, 86),darkcyan);
+        animation: gradient 3s ease infinite;
     }
-    .skill-progress{
-        background-color: rgb(11, 96, 135);
-    }
+
 }
 
 
