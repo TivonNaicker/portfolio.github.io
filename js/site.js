@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     showMoreButtons.forEach(button => {
         button.addEventListener('click', () => {
             const title = button.getAttribute('data-title');
-            const src = button.getAttribute('data-src');
+           // const src = button.getAttribute('data-src');
             const description = button.getAttribute('data-description');
 
             modalTitle.textContent = title;
