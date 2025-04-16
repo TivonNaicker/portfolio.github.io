@@ -132,6 +132,18 @@ body {
         background: none !important;
         background-color: rgb(32, 32, 32) !important;  
     }
+    .skill-progress::-webkit-progress-value {
+        background-color: #1e90ff;
+    }
+    
+    .skill-progress::-moz-progress-bar {
+        background-color: #1e90ff;
+    }
+    .skill-card{
+        margin-top: 40px;
+    }
+  
+    
 
 }
 
