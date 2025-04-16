@@ -8,6 +8,11 @@ html {
   }
 }
 
+@media  screen and (max-width:400px) {
+  *{
+      font-size: x-large;
+  }
+}
 @media screen and (max-width: 679px) {
 
 
