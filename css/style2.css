@@ -112,7 +112,7 @@ body {
     padding: 20px;
     margin: 0 auto; /* Center the card horizontally */
 }
-@media (max-width: 380px) {
+@media only screen and (max-width: 380px) {
     .skill-card {
         width: 100%;
         padding: 3px;
@@ -131,7 +131,7 @@ body {
         max-width: 500px;
     }
 }
-@media (max-width:600px){
+@media only screen and (max-width:600px){
  li,hr{
     color: black !important; 
  }
@@ -148,12 +148,12 @@ body {
     }
     .skill-card{
         margin-top: 40px;
-        background-color: aliceblue;
+        background-color: white;
         box-shadow: 0 1rem 3rem black;
         border-radius:10px;
     }
     .skill-card:hover {
-        background-color: aliceblue !important;
+        background-color: white !important;
         box-shadow: none !important;
         border-radius: 10px !important;
     }
@@ -164,7 +164,7 @@ body {
     
 
 }
-@media (max-width: 400px) {
+@media only screen and (max-width: 400px) {
     .skill-card {
         width: 90% !important;
         max-width: 300px !important;
