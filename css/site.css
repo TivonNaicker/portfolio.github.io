@@ -8,11 +8,16 @@ html {
   }
 }
 
-@media  screen and (max-width:400px) {
-  *{
-      font-size: x-large;
+@media screen and (max-width:400px) {
+  .title {
+    zoom: 2;
+  }
+
+  #see-more {
+    font-size: 5vw;
   }
 }
+
 @media screen and (max-width: 679px) {
 
 

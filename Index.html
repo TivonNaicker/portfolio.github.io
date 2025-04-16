@@ -8,7 +8,49 @@
            <link rel="stylesheet" href="./css/site.css" type="text/css">
            <link rel="icon" type="image/x-icon" href="/css/Media/cv.png">
            <style>
-            
+            /* Make canvas fill entire screen and stay behind everything */
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+/* Position content on top of canvas, centered and responsive */
+.overlay-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 10;
+  width: 90%;
+}
+
+.overlay-content .title {
+  font-family: 'good_timesregular', Arial, sans-serif;
+  font-size: 2.5vw;
+  color: white;
+}
+
+#see-more {
+  background-color: rgb(3, 173, 116);
+  border: none;
+  padding: 12px 24px;
+  font-size: 1.2vw;
+  border-radius: 5px;
+}
+
+#see-more:hover {
+  background-color: rgba(255, 255, 255, 0);
+  border: solid 2px black;
+  cursor: pointer;
+  scale: 1.1;
+  box-shadow: 0 0 20px purple;
+}
+
                header{
                    display:none;
                }
@@ -59,13 +101,18 @@
         
    <body id="body">
    
-       <div class="container">
-           <ul style="list-style: none;">
-               <li> <center>  <span class="title">Welcome To My Website</span></center></li>
-              
-               <li> <br><br><center> <a href="./About.html" id="see-more" style="zoom: 1.5;font-size: small;font-family:good_timesregular;text-decoration: none;color:white;">View more</a> </li>
-           </ul></center>
-       </div>
+    <div class="container">
+        <ul style="list-style: none;">
+          <li>
+            <div class="overlay-content">
+              <center><span class="title">Welcome To My Website</span></center>
+              <br><br>
+              <a href="./About.html" id="see-more" style="zoom: 1.5; font-size: small; font-family: good_timesregular; text-decoration: none; color: white;">View more</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      
 
        <!-- partial -->
    
