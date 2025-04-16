@@ -140,11 +140,11 @@ body {
         background-color: rgb(41, 41, 41) !important;  
     }
     .skill-progress::-webkit-progress-value {
-        background-color: #1e90ff;
+        accent-color: #1e90ff !important;
     }
     
     .skill-progress::-moz-progress-bar {
-        background-color: #1e90ff;
+        accent-color: #1e90ff !important;
     }
     .skill-card{
         margin-top: 40px;
@@ -163,6 +163,13 @@ body {
  
     
 
+}
+@media (max-width: 400px) {
+    .skill-card {
+        width: 90% !important;
+        max-width: 300px !important;
+        padding: 10px !important;
+    }
 }
 
 
