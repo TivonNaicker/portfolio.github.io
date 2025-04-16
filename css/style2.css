@@ -87,7 +87,11 @@ body {
     background-size: 400% 400%;
     animation: gradient 5s ease infinite;
 }*/
-
+.skill-card:hover {
+    box-shadow: 0 1rem 3rem black;
+    background-color:rgb(40,40,40);
+    border-radius:10px;
+}
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
@@ -128,9 +132,12 @@ body {
     }
 }
 @media (max-width:600px){
+ li,hr{
+    color: black !important; 
+ }
     body{
         background: none !important;
-        background-color: rgb(32, 32, 32) !important;  
+        background-color: rgb(41, 41, 41) !important;  
     }
     .skill-progress::-webkit-progress-value {
         background-color: #1e90ff;
@@ -141,8 +148,19 @@ body {
     }
     .skill-card{
         margin-top: 40px;
+        background-color: aliceblue;
+        box-shadow: 0 1rem 3rem black;
+        border-radius:10px;
     }
-  
+    .skill-card:hover {
+        background-color: aliceblue !important;
+        box-shadow: none !important;
+        border-radius: 10px !important;
+    }
+    .card-title{
+        color: black !important;
+    }
+ 
     
 
 }
